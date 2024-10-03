@@ -1,0 +1,188 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white:#FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700px;
+    font-style: normal;
+    width: 900px;
+    }
+
+    p{
+      font-size: 1.4rem;
+     
+    }
+
+    .resume{
+        
+            display: flex;
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .resume__sidebar {
+        background-color: #e0f8fa;
+        width: 45%;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .resume__main {
+        width: 55%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ececec;
+      }
+
+      .resume__photo img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 6px solid #a9dbd6;
+       
+      }
+
+      .resume__contact{
+        display: flex;
+       flex-direction:column;
+       align-items: start;
+       justify-content: center;
+       margin-bottom: 10px;
+        margin-top: 20px;
+        border-bottom: 2px solid var(--dark);
+      }
+
+      .resume__contact p{
+        width: 160px;
+      }
+
+
+      .iconos{
+        display: flex;
+        align-items: center;margin-top: 10px;
+      }
+
+      span{
+        width: 15px;
+        height: 15px;
+        margin: 10px;
+      }
+
+      
+
+
+      .skills-list{
+        text-align: start;
+      }
+
+      h1 {
+        font-size: 3.4rem;
+        margin-bottom: 10px;
+        color: var(--black);
+        
+      }
+      
+      h2 {
+        font-size: 1.8rem;
+        
+      }
+
+      h3{
+        font-size: 1.8rem;
+
+      }
+      h4{
+        font-size: 1.8rem;
+      }
+
+      .resume__habilidades{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-top: 2px solid var(--dark);
+      
+      }
+
+      .resume__competencias{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-top: 2px solid var(--dark);
+      
+      }
+
+
+      .section-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333;
+        text-transform: uppercase;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      
+      ul li {
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+
+      .resume__main{
+        display: flex;
+        justify-content: end;
+        width: auto;
+      }
+
+      .resume__main p{
+        font-size: 1.5rem;
+      }
+
+      .resume__experience{
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+
+      .resume__experience p{
+        margin-top: 10px;
+      }
+
+      .resume__experience .educación{
+        margin-top: 20px;
+      }
+  
+    
+  
