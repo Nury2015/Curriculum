@@ -183,6 +183,64 @@ body{
       .resume__experience .educación{
         margin-top: 20px;
       }
+
+      /*media Q*/
   
+      @media (max-width: 768px) {
+        .resume {
+            flex-direction: column;
+        }
     
+        .resume__sidebar,
+        .resume__main {
+            width: 100%;
+            padding: 20px;
+            text-align: start;
+        }
+    
+        .resume__main {
+            padding-top: 10px;
+        }
+    
+        h1 {
+            font-size: 2.4rem;
+        }
+    
+        h2, h3, h4 {
+            font-size: 1.6rem;
+        }
+    
+        p, ul li {
+            font-size: 1.4rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .resume__photo img {
+          
+            width: 100px;
+            height: 100px;
+        }
+    
+        h1 {
+            font-size: 2rem;
+        }
+    
+        p, ul li {
+            font-size: 1.2rem;
+        }
+    
+        .resume__contact p {
+            width: auto;
+        }
+    
+        .skills-list {
+            text-align: center;
+        }
+    
+        .iconos span {
+            width: 10px;
+            height: 10px;
+        }
+    }
   
